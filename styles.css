@@ -1,0 +1,33 @@
+.wrapper {
+    margin: auto;
+    width: 600px;
+    height: 1000px;
+    background: orange;
+}
+.header {
+    height: 20%;
+    background-color: white;
+}
+
+.menuDots {
+    float: right;
+}
+
+.picture{
+    height: 50%;
+    width: 100%;
+}
+
+.postPicture {
+    width: 100%;
+}
+
+.footer {
+    height: 30%;
+    width: 100%;
+    background-color: white;
+}
+
+.rightIcons {
+    float: right;
+}
