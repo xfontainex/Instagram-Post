@@ -1,33 +1,76 @@
-.wrapper {
+body {
+    background-color: black;
+}
+* {
+    /* border: 2px solid green; */
+}
+.post {
     margin: auto;
-    width: 600px;
-    height: 1000px;
-    background: orange;
+    background-color: white;
+    border-radius: 8px;
+    width: 520px;
+    height: auto;
 }
 .header {
-    height: 20%;
+    height: 10%;
     background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    overflow: auto;
+    padding: 10px;
+    border-radius: 8px;
 }
-
+.profilePic {
+    margin-left: 5px;
+}
+.thumb {
+    border-radius: 50%;
+    float: left;
+}
+.handleLocation {
+  margin-left: 10px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+}
 .menuDots {
-    float: right;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    align-items: center;
+    margin-right: 5px;
 }
 
 .picture{
-    height: 50%;
-    width: 100%;
-}
-
-.postPicture {
-    width: 100%;
-}
-
-.footer {
-    height: 30%;
+    height: 55%;
     width: 100%;
     background-color: white;
+    margin: auto;
+    overflow: auto;
 }
+.postPicture {
+    width: 100%;
+    ; 
+}
+.footer {
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+}
+.iconsBar {
+    display: flex;
+    font-size: 25px;
+}
+.leftIcons {
+    float: left;;
+}
+.saveIcon {
+    margin-left: auto;
 
-.rightIcons {
-    float: right;
+}
+.likedBy {
+}
+.postText {
 }
